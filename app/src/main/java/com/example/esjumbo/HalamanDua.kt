@@ -29,7 +29,7 @@ import androidx.compose.ui.text.input.KeyboardType
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HalamanSatu(
+fun HalamanDua(
     pilihanRasa: List<String>,
     onSelectionChanged: (String) -> Unit,
     onConfirmButtonClicked: (Int) -> Unit,

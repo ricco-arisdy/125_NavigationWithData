@@ -87,7 +87,7 @@ fun EsJumboApp(
             }
             composable(route = PengelolaHalaman.Rasa.name) {
                 val context = LocalContext.current
-                HalamanSatu(
+                HalamanDua(
                     pilihanRasa = flavor.map { id ->
                         context.resources.getString(id)
                     },
@@ -106,7 +106,7 @@ fun EsJumboApp(
                     })
             }
             composable(route = PengelolaHalaman.Summary.name) {
-                HalamanDua(
+                HalamanTiga(
                     orderUIState = uiState,
                     onCancelButtonClicked = {
                         cancelOrderAndNavigateToRasa(navController) },

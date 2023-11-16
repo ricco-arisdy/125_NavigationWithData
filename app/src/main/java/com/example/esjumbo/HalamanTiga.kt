@@ -21,7 +21,7 @@ import com.example.esjumbo.data.OrderUIState
 import com.example.esjumbo.komponen.FormatLabelHarga
 
 @Composable
-fun HalamanDua(
+fun HalamanTiga(
     orderUIState: OrderUIState,
     onCancelButtonClicked: () -> Unit,
     //onCancelButtonClicked: (String, String) -> Unit,
